@@ -1,3 +1,7 @@
+import json
+import base64
+import hashlib
+from django.conf import settings
 
 #A class is created to encode the order data and create the signature.
 class PostData():
